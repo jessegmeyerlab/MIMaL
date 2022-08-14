@@ -1,6 +1,6 @@
 # jupyter notebook descriptions
 
-+ **compare-models.ipynb:** code to generate training/validation/test data from downloaded data inputs and then compare various models with different inputs
++ **compare-models.ipynb:** code to generate training/validation/test data from downloaded data inputs and then compare various models with different inputs (~2h per fold: 3.40ghz Intel i7-3770)
 + **extratrees-gridsearch.ipynb:** code to perform gridsearch with extratrees model (~36h 3.40ghz Intel i7-3770)
 + **yeast_multiomics_impute_SHAP.ipynb:** code to train extratrees models for each metabolite from proteomics data and calculate SHAP values across the entire dataset
 + **UMAP_Cluster.ipynb:** code to determine clustering from shap values using UMAP and OPTICS. Use generated clusters to create network linking original conditions.
